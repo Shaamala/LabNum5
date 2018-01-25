@@ -48,10 +48,12 @@ public class Lab5 {
 		}
 		scan.close();
 	}
-
+// this class to generate random numbers
 	public static int generateRandom(int sideNum) {
 		int num;
+		//create random number 
 		Random rand = new Random();
+		// sing the random number to variable
 		num = rand.nextInt(sideNum) + 1;
 		return num;
 	}
