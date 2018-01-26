@@ -45,10 +45,13 @@ public class Lab5 {
 			// continue playing inpute
 			System.out.println("Roll again? (y/n): ");
 			roll = scan.next();
+			if(roll.equalsIgnoreCase("n")) {
+				System.out.println("GoodBye!");
+			}
 		}
 		scan.close();
 	}
-// this class to generate random numbers
+// this method use to generate random numbers
 	public static int generateRandom(int sideNum) {
 		int num;
 		//create random number 
